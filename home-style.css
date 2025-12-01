@@ -1,0 +1,49 @@
+body {
+        font-family: american typewriter, serif;
+        color: white;
+        background-color: black;
+}
+.head-2 {
+        text-align: center;
+        font-style: italic;
+        font-weight: lighter;
+}
+
+.full-screen-bg {
+        background-image: url('home-page.jpg'); /* Replace with your image path */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; /* Ensures the image covers the entire container */
+        height: 650px;
+        width: 850px;
+    }
+
+.about {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+.nav-container {
+        text-align: center;
+        margin-top: 20px;
+}
+
+.nav-bar {
+        color: white;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        list-style-type: none;
+        padding: 0;
+        position: relative;
+}
+a:link {
+        color: white;
+        text-decoration: underline;
+        font-weight: medium;
+}
+a:visited {
+        color: grey;
+        text-decoration: underline;
+        font-weight: medium;
+}
